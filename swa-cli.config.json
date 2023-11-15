@@ -1,0 +1,14 @@
+{
+  "$schema": "https://aka.ms/azure/static-web-apps-cli/schema",
+  "configurations": {
+    "vite-swa-test": {
+      "appLocation": ".",
+      "outputLocation": "dist",
+      "appBuildCommand": "npm run build",
+      "run": "npm run dev",
+      "appDevserverUrl": "http://localhost:5173",
+      "appName": "swa-sislogin-stg-001",
+      "resourceGroup": "rg-webappng-stg-app-001"
+    }
+  }
+}
